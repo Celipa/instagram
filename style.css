@@ -72,81 +72,139 @@ section{
     background-color: #d6d6d6fa;
     display: flex;
 }
+/*stories panel*/
 .left-side{
-    width: 65%;
+    width: 900px;
 }
+/*story panel*/
 .story{
+    width: 700px;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     border: 1px solid rgb(182, 182, 182);
     border-radius: 5px;
 }
-.story .stories{
-    width: 90%;
-    height: 130px;
-    background-color: rgb(255, 255, 255);
+/*stories*/
+.stories{
+    display: flex;
+    width: 380px;
+    height: 90px;
 
 }
-.story .stories a img{
+/*story pictures*/
+.stories img{
+    display: flex;
+    gap:40px;
     border-radius: 50%;
-    border:2px solid #c62d8f;
+    border:2px solid #c02487;
     padding: 1px;
+    margin: 8px;
     object-fit: cover;
 }
-.story .stories p{
-    width: 90%;
+/*stories names*/
+.story-names{
+    display: flex;
+    gap: 25px;
+    margin: 70px;
+    margin-left: -585px;
+    padding-right: 100px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color:#333333fa;
+    list-style: none;
+    background-color: #86868600;
+    
+}
+/*the entire post*/
+.posts{
+    margin: 120px -810px;
 }
 /*Top post field*/
 .post-left{
     padding:10px 1%;
+    width: 700px;
     background-color: #fffffffa;
     display: flex;
     margin-top: 26px;
     border-radius: 2px;
     font-size: 15px;
 }
+.post-left img{
+    border-radius: 50%;
+}
 .upload-time{
     color:rgb(88, 88, 88);
     margin: -34px 73px;
 }
+/*the ... menu*/
 .post-right i{
     margin:50px 620px;
     position:absolute;
     font-size: large;    
 }
+/*actual image in post*/
 .post-content img{
+    width: 699px;
+    height: 700px;
     display:flex;
     border-radius: 2px;
     object-fit: cover;
 }
-/*image footer*/
+/*bottom post panel*/
 .post-footer{
     background-color: white;
     padding:10px;
     border-radius: 3px;
+    width:700px;
 }
-.like-share-comment{
-    display: flex;
+/*emojies in panel*/
+.post-footer i{
+    margin: 4px;
+    font-size: 20px;
     
+}
+.save-post i{
+    margin: -15px 650px;
+    position:absolute;
+    font-size: large; 
 }
 /*comments*/
 .post-footer .comments{
     color:gray;
 
 }
+/*just link details*/
 a{
     text-decoration: none;
     color:rgb(37, 37, 37)
 }
+/*add comment field*/
 .add-comment input{
     border-style: none;
     font-size: 15px;
 }
-
+.sidepanel{
+    background-color: rgb(172, 172, 172);;
+    border-radius: 4px;
+    margin: 150px;
+    margin-bottom: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 70px;
+}
+.icons{
+    font-size: 30px;
+}
+.icons li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 10px;
+    align-items:stretch;
+}
 
 
