@@ -3,233 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Side</title>
-    <style>
-        * {
-            list-style: none;
-            margin:0;
-            padding: 0px;
-            font-family: sans-serif;
-            box-sizing: border-box;
-        }
-        #sidebar-menu {
-            width: 200px;
-            background-color: rgb(243, 243, 243);
-            position:fixed;
-            inset-block: 0;
-            inset-inline-start: 0;
-            border-inline-end: 1px rgb rgb(218, 218, 218) solid;
-
-        }
-        .title {
-            padding-left: 24px 24px 32px 8px;
-        }
-        .menu-list {
-            display:flex;
-            flex-direction: column;
-            gap:8px;
-        }
-        .menu-list img{
-            display: flex;
-            border-radius: 50%;
-            width: 30px;
-        }
-
-        .menu__list-item a,
-        .menu__list-item a:link {
-            padding:16px 8px; 
-            display: flex;
-            align-items: center;
-            color:black;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .menu__list-item a:hover {
-            color:rgb(56, 56, 56);
-        }
-        .menu__list-item-icon {
-            margin-right: 16px;
-            font-size:23px;
-            position: relative;
-            padding-left: 25px;
-        }
-        .menu__list-item-icon--notification::after{
-            content:"";
-            position: absolute;
-            top: 4px;
-            right:0;
-            width:8px;
-            aspect-ratio: 1;
-            border-radius: 50%;
-            background-color: rgb(211, 24, 24);
-        }
-
-        #main-content {
-            margin-left:10px;
-            background-color: rgb(255, 255, 255);
-            width: calc(100vw - 250px);
-            min-height:100vh;
-        }
-        .card{
-            background-color: white;
-            border: #484848 solid 1px;
-        }
-        
-        
-        
-.logo{
-   padding-left: 20px; 
-}
-/*the entire post*/
-.posts{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100%;
-    overflow-y:auto ;
-    gap: 16px;
-   background-color: rgb(53, 47, 47);
-}    
-
-/*stories panel*/
-.left-side{
-    width: 100px;
-}
-/*story panel*/
-.story{
-    width: 660px;
-    display: flex;
-    padding: 10px;
-    margin-left: 200px;
-    background-color: white;
-    border: 1px solid rgb(182, 182, 182);
-    border-radius: 5px;
-}
-/*stories*/
-.stories{
-    display: flex;
-    width: 380px;
-    height: 90px;
-    
-
-}
-/*story pictures*/
-.stories img{
-    display: flex;
-    gap:40px;
-    border-radius: 50%;
-    border:2px solid #c02487;
-    padding: 1px;
-    margin: 8px;
-    object-fit: cover;
-}
-/*stories names*/
-.story-names{
-    display: flex;
-    gap: 25px;
-    margin: 70px;
-    margin-left: -585px;
-    padding-right: 100px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    list-style: none;
-    background-color: #86868600;
-    
-}
-/*the entire post*/
-.posts{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100%;
-    overflow-y:auto ;
-    gap: 16px;
-   background-color: rgb(255, 255, 255);
-}
-/*Top post field*/
-.post-left{
-    padding:10px 1%;
-    width: 700px;
-    background-color: #fffffffa;
-    display: flex;
-    margin-top: 26px;
-    border-radius: 2px;
-    font-size: 15px;
-    border-color: rgb(175, 175, 175);
-    border-width: 1px;
-    border-style: solid;
-
-}
-.post-left img{
-    border-radius: 50%;
-    
-}
-.upload-time{
-    color:rgb(88, 88, 88);
-    margin: -34px 73px;
-}
-/*the ... menu*/
-.post-right {
-    margin:58px 620px;
-    position:absolute;
-    font-size: large;  
-    color:black;  
-}
-/*actual image in post*/
-.post-content img{
-    width: 699px;
-    height: 700px;
-    display:flex;
-    border-radius: 2px;
-    object-fit: cover;
-    border-color: rgb(138, 138, 138);
-    border-width: 1px;
-    border-style: solid;
-}
-/*bottom post panel*/
-.post-footer{
-    background-color: white;
-    padding:10px;
-    border-radius: 3px;
-    width:700px;
-    border-color: rgb(138, 138, 138);
-    border-width: 1px;
-    border-style: solid;
-}
-/*emojies in panel*/
-.post-footer i{
-    margin: 3px 4px;
-    font-size: 20px;
-    color:black
-    
-}
-.save-post{
-    margin: -15px 650px;
-    position:absolute;
-    font-size: large; 
-}
-/*comments*/
-.post-footer .comments{
-    color:gray;
-
-}
-/*just link details*/
-a{
-    text-decoration: none;
-    color:rgb(37, 37, 37)
-}
-/*add comment field*/
-.add-comment input{
-    border-style: none;
-    font-size: 15px;
-}
-.like-share-comment{
-    margin: 3px 4px;
-    font-size: 20px;
-    color:black    
-}
-    </style>
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <aside id="sidebar-menu">
@@ -302,6 +77,7 @@ a{
                         
                     </a>
                 </li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <li class="menu__list-item menu__list-item--active">
                     <a href="#">
                         <span class="menu__list-item menu__list-item-icon
@@ -313,33 +89,65 @@ a{
                 </li>
             </ul>
         </nav>
-    </h1>
     </aside>
+   
     <main id="main-content">
+        <div class="follows">
+            <div class="foryou">
+                <button class="for-you">For you</button>            
+            </div>
+            <div class="following">
+                  <button class="following">Follows</button>
+            </div>
+            
+        </div>
+    <div class="status-wrapper">
+        
+    </div>
+    <div class="status-card">
+        <div class="profile-pic">
+        <img src="./images/redone.png" alt="Profile Picture">
+        </div>
+        <div class="username">DrBulma</div>
+        <div class="realname"> settings</div>
+    </div>
+    </div>
+        <div class="divider">
+            <hr> 
+        </div>
+        
         <section class="storypanel">
             <div class="story">
                 <div class="stories">
+                <a href="#">
                     <img src="./images/kale.png" width="60" height="60" alt="profilepic"></a>
     
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/2822066-tapionsad.jpg" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/beat.jpg" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/buu.jpg" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/vegeta.jpg" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/goten.png" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/trunks.jpg" width="60" height="60" alt="profilepic"></a>
                 
                 <div class="stories">
+                    <a href="#">
                     <img src="./images/five.jpg" width="60" height="60" alt="profilepic"></a>
                 <div>
                     <ul class="story-names">
@@ -349,13 +157,64 @@ a{
                         <li class="names"> MajinBuu </li>
                         <li class="names">Vegeta </li>
                         <li class="names">Goten </li>
-                        <li class="names">Trunks </li>
+                        <li class="names">&nbsp;Trunks </li>
                         <li class="names">&nbsp;&nbsp;&nbsp;Whis </li>
                         
                     </ul>
-                </div>    
+                </div>
             </div>
         </section>
+            <aside id="right-sidepanel">
+                <div class="recommendations">
+                    <p>Suggestions for you</p>
+                  <div class="recommendation-card">
+                    <div class="profile-pic">
+                         <img src="./images/main-qimg-3f093d6f66dd11d5e8139e824841613b-pjlq.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="username">
+                        Turles</div>
+                    <div class="followed-by"> Followed by Vegeta</div>
+                    <button>Follow</button>
+                  </div>
+                  <div class="recommendation-card">
+                    <div class="profile-pic">
+                      <img src="/images/Cauliflo.webp" alt="Profile Picture">
+                    </div>
+                    <div class="username">
+                        Caulifla</div>
+                    <div class="followed-by"> Followed by Vegeta</div>
+                    <button>Follow</button>
+                  </div>
+                  <div class="recommendation-card">
+                    <div class="profile-pic">
+                    <img src="./images/Saimiri_sciureus-1_Luc_Viatour.jpg" alt="Profile Picture"></a>
+                    </div>
+                    <div class="username">
+                        Giblet</div>
+                    <div class="followed-by"> Followed by Vegeta + 3 </div>
+                    <button>Follow</button>
+                  </div>
+                  <div class="recommendation-card">
+                    <div class="profile-pic">
+                        <img src="./images/dragon-ball-xenoverse.gif" alt="Profile Picture">
+                    </div>
+                    <div class="username">
+                        Gushr</a></div>
+                    <div class="followed-by"> Followed by Vegeta</div>
+                    <button>Follow</button>
+                  </div>
+                  <div class="recommendation-card">
+                    <div class="profile-pic">
+                      <img src="./images/0l15pna3muva1.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="username">
+                        Hit</a></div>
+                    <div class="followed-by"> Followed by Vegeta + 1 </div>
+                    <button>Follow</button>
+                  </div>
+                </div>
+            </aside>
+        
         <section class="posts">
                 <div class="post-title">
                     <div class="post-left">
@@ -392,7 +251,7 @@ a{
                         <p class="name"><strong> KaleLSS</strong><span> Just passed 5th grade, hopefully i can pass 6th grade on my 19th bday.</span> </br><a href="#">#Smert</a></p>
                     </br>
                         <p class="name"><strong> Stoinky</strong> <span>This really is one of the top 10 fortnite moments of all time! </a></span></p>
-                        <p class="name"><strong> Elon Musk</strong><span> Why are there two of you?</a></span></p>
+                        <p class="name"><strong> Gushr</strong><span> Why are there two of you?</a></span></p>
                         <a href="#"><p class="comments">View all 10 comments</p></a>
                         <p class="under-comments"></p>
                     </div>
